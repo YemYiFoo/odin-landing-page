@@ -1,0 +1,112 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    color: white;
+    background-color: rgb(49, 46, 46);
+}
+
+nav {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    gap: 400px;
+    margin-bottom: 30px;
+}
+
+.logo {
+    font-size: 20px;
+}
+
+ol {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.intro-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.intro {
+    width: 400px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.intro p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.intro button {
+    padding: 8px 25px;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+}
+
+.placehoder-img {
+    height: 200px;
+    width: 410px;
+}
+
+.info-container {
+    text-align: center;
+}
+
+h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+li img {
+    height: 150px;
+    width: 150px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+ul li {
+    width: 200px;
+}
+
+.quote-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightgray;
+}
+
+.quote {
+    width: 800px;
+    border: 3px red solid;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
